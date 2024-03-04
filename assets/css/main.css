@@ -308,7 +308,7 @@ header .search{
     border-style: solid;
     border-color: transparent transparent var(--white-color) transparent;
     top: -28px;
-    right: 0px;
+    right: 20px;
 }
 
 .search__shopping-cart__notify-desc{
