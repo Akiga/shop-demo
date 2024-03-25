@@ -51,6 +51,7 @@
         height: 50px;
         margin: 0 10px;
         text-decoration: none;
+        list-style: none;
     }
 
     .ti-search{
@@ -61,6 +62,7 @@
         position: relative;
         top: 16px;
         right: 5px;
+        text-decoration: none;
     }
 
     header .search{
