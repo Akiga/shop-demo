@@ -1,0 +1,73 @@
+/* tablet and mobile */
+@media (max-width: 1023px)
+{
+    .nav{
+        display: none;
+    }
+
+    header .search{
+        margin-top: 0;
+        height: 100%;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .finally{
+        background-color: var(--white-color);
+    }
+}
+
+
+/* tablet */
+@media (max-width: 1023px) and (min-width: 740px)
+{
+    .grid__column-2{
+        width: 25%;
+    }
+
+    .finally__policy-item{
+        width: 50%;
+        text-align: center;
+    }
+    .search__logo-shoppee{
+        display: none;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px)
+{
+    .search__input{
+        display: none;
+    }
+
+    .search__shopping{
+        display: block;
+    }
+
+    .search__shopping,.search__shopping-cart{
+        height: 50px;
+        margin: 0 10px;
+    }
+
+    .ti-search{
+        font-size: 24px;
+        cursor: pointer;
+        padding: 4px;
+        color: var(--white-color);
+        position: relative;
+        top: 16px;
+        right: 5px;
+    }
+
+    header .search{
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .grid__column-2{
+        width: 50%;
+    }
+}

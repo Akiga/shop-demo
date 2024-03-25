@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.shoppee{
+    overflow: hidden;
+}
+
 .header{
     /* position: fixed;
     top: 0;
@@ -278,7 +282,7 @@ header .search{
     color: var(--white-color);
     position: relative;
     top: 16px;
-    right: 5px;    
+    right: 5px;
 }
 
 .search__hover:hover .search__shopping-cart__notify{
@@ -291,8 +295,8 @@ header .search{
     width: 360px;
     height: 180px;
     background-color: var(--white-color);
-    top: 100px;
-    right: 120px;
+    top: 100%;
+    right: 0px;
     z-index: 1;
     display: none;
     animation: fadeIn linear .3s;
@@ -307,8 +311,8 @@ header .search{
     border-width: 16px 14px;
     border-style: solid;
     border-color: transparent transparent var(--white-color) transparent;
-    top: -28px;
-    right: 20px;
+    top: -25px;
+    right: 5px;
 }
 
 .search__shopping-cart__notify-desc{
@@ -580,6 +584,7 @@ header .search{
     display: flex;
     list-style: none;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .finally__policy-link{
@@ -617,4 +622,10 @@ header .search{
     color: rgba(0, 0, 0, 0.5);
     font-size: 12px;
     text-align: center;
+}
+
+
+/* Không hiện trên laptop */
+.search__shopping{
+    display: none;
 }
