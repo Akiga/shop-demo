@@ -50,6 +50,7 @@
     .search__shopping,.search__shopping-cart{
         height: 50px;
         margin: 0 10px;
+        text-decoration: none;
     }
 
     .ti-search{
